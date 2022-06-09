@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Components/Pages/Contact/Contact';
 import Profile from './Components/Pages/Profile/Profile';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
             </div>
           </div>
           <div className="col-lg-9 main-part">
-            main
+            <Contact></Contact>
           </div>
         </div>
       </div>
