@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+body{
+    background-color: #e9ecef;
+}
+.profile-part{
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.main-part{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 15px;
+}
+.row{
+    height: 90vh;
+}
+.container-fluid{
+    padding-top: 20px;
+}
