@@ -1,18 +1,74 @@
-.p-name{
+.profile-container {
+    position: sticky;
+}
+
+.p-name {
     font-family: 'Kaushan Script';
     text-align: center;
 }
-.p-title{
+
+.p-title {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 .p-image{
     width: 100%;
 }
-span{
-    color: #425cbb;
-    
+
+span {
+    color: #00f260;
+
 }
-ul.profile-information {
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    color: #00f260;
+}
+
+.icon-item {
+    width: 25px;
+    margin: 10px;
+    text-align: justify;
+
+}
+
+.location {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.resume-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #00f260;
+    color: white;
+    border-radius: 10px;
+}
+
+.resume-button:hover {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #00f260;
+    color: white;
+}
+
+.contact-info {
+    background-color: rgba(128, 128, 128, 0.247);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 6px #00f260;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+/* ul.profile-information {
     list-style: none;
-}
+} */

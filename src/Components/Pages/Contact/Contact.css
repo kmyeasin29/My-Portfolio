@@ -9,7 +9,6 @@
 }
 
 .form-container {
-    background-color: #e9ecef;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -25,6 +24,7 @@ form {
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0 0 10px black;
 }
 form input, form textarea{
     border: 0;
@@ -39,7 +39,7 @@ form input, form textarea{
 }
 form button{
     width: 150px;
-    background-color: #425cbd;
+    background-color: #00f260;
     padding: 10px;
     font-size: 18px;
     cursor: pointer;
